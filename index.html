@@ -7,26 +7,56 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.min.css">
   </head>
 
+  <style>
+
+    body{
+      background-color: #84b7ea;
+    }
+
+    .row{
+      background-color: white;
+      padding: 10px;
+    }
+
+    .medium-12 columns{
+
+    }
+
+    a:link, a:visited{
+      color: black;   <!-- This is intentional, not to hide the link but to avoid separate colors in the text -->
+    }
+
+     a:hover, a:focus, a:active{
+      background-color: #84b7ea;
+      color: white;
+    }
+
+    p{
+      width: 650px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+  </style>
+
   <body>
+
     <div class="row">
       <div class="medium-12 columns">
 
         <h1>Hello World!</h1>
 
-        <a href="https://se.linkedin.com/in/mikael-feher-79b324105" target="_blank">
-          <span title="https://se.linkedin.com/in/mikael-feher-79b324105">
+        <a href="https://se.linkedin.com/in/mikael-feher-79b324105" title="https://se.linkedin.com/in/mikael-feher-79b324105" target="_blank">
           <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAATaAAAAJGUwOTU5MWEzLTljODUtNDBhMC1hYzBkLWY1OTc3NzMzODkzNw.jpg" alt="My profile picture from LinkedIn"</img>
-          </span>
         </a>
 
-        <p>My name is Mikael, and I am attending <a href="http://craftacademy.se" target="_blank">
-          <span title="https://craftacademy.se/">Craft Academy's</span></a> bootcamp pre-course.</p>
-
-        <hr>
+        <p>My name is Mikael, and I am attending <a href="http://craftacademy.se" title="https://craftacademy.se/" target="_blank">Craft Academy's</a> bootcamp pre-course.</p>
         <br>
+
         <h3>About the Bootcamp</h3>
-        <p>It will be a 12 week super intense rollercoaster, at the end of which I will be ready for a junior
-           development position working with tools like:
+        <p>It will be a 12 week super intense rollercoaster ride, at the end of which I will be ready for a junior development position working with tools like:
 
           <ul>
             <li><strong>HTML</strong></li>
@@ -39,16 +69,20 @@
 
         <h3>About me</h3>
         <p>I am 39 years old and attempting to change careers into software development. My first step into the IT-field was actually informationsecurity, which wasn't really for me.
-           During the security course I started messing around in Python and found that I really enjoyed programming, so I decided to go for it. And here I am.</p>
+          During the security course I started messing around in Python and found that I really enjoyed programming, so I decided to go for it.<br>
+          And here I am...</p>
         <br>
 
         <h4>A little more about me</h4>
-          <P>I like <em>TED Talks</em>-videos and this is by far my favorite one:</p>
+          <P>I like <em>TED Talks</em>-videos, and this is by far my favorite one:</p>
             <iframe width="500" height="300"
-              src="https://www.youtube.com/embed/8S0FDjFBj8o" frameborder="0" allowfullscreen>
+              src="https://www.youtube.com/embed/8S0FDjFBj8o" alt="Youtube-video" frameborder="0" allowfullscreen>
             </iframe>
 
+        <footer style="text-align:center"><em>"There are 10 kinds of people in the world... Those who understand and those who do not..."</em></footer>
+
       </div>
+    </div>
     </div>
 
    <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
